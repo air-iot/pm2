@@ -1,7 +1,10 @@
 {
-  "name": "pm2",
+  "name": "@airiot/pm2",
   "preferGlobal": true,
   "version": "5.3.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=10.0.0"
   },
@@ -184,6 +187,7 @@
     "enquirer": "2.3.6",
     "eventemitter2": "5.0.1",
     "fclone": "1.0.11",
+    "graceful-fs": "^4.2.11",
     "mkdirp": "1.0.4",
     "needle": "2.4.0",
     "pidusage": "~3.0",
